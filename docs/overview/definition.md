@@ -49,7 +49,7 @@ $$p_\theta(s_{t+1} | s_t, a_t)$$
 
 ### 2.4 为什么世界模型如此重要？
 
-- **样本效率**：在想象中训练策略，大幅减少真实环境交互次数（DreamerV3 用想象训练首次从零收集 Minecraft 钻石）
-- **安全性**：在内部模拟中测试危险场景（如自动驾驶碰撞、机器人失控），无需真实试错
-- **泛化能力**：一个好的世界模型可以生成无限多样的训练场景（[Cosmos-Drive-Dreams](https://arxiv.org/abs/2506.09042) 用世界模型生成合成驾驶数据）
-- **通向 AGI 的关键路径**：LeCun 认为世界模型是实现自主机器智能的核心组件；[DreamZero](https://arxiv.org/abs/2602.15922) 证明世界模型本身就可以作为零样本策略
+- **样本效率**：在想象中训练策略，大幅减少真实环境交互次数（DreamerV3 用想象训练首次从零收集 Minecraft 钻石 — [🎬 官方演示](https://danijar.com/project/dreamerv3/) · [GitHub](https://github.com/danijar/dreamerv3)）
+- **安全性**：在内部模拟中测试危险场景，无需真实试错（GAIA-1 在虚拟环境模拟驾驶场景 — [🎬 Wayve 官方博客](https://wayve.ai/thinking/scaling-gaia-1/)）
+- **泛化能力**：一个好的世界模型可以生成无限多样的训练场景（[Cosmos-Drive-Dreams](https://arxiv.org/abs/2506.09042) — [🎬 NVIDIA 演示](https://research.nvidia.com/labs/toronto-ai/cosmos-drive-dreams/)）
+- **通向 AGI 的关键路径**：LeCun 认为世界模型是实现自主机器智能的核心组件；[DreamZero](https://arxiv.org/abs/2602.15922) 证明世界模型可作为零样本策略（[🎬 项目主页](https://dreamzero-world-action-model.github.io/)）

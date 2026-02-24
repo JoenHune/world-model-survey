@@ -126,6 +126,17 @@ outline: deep
 | 13 | Generative World Models for Physical AI | 2025.02 | 物理 AI 生成世界模型 | [arXiv](https://arxiv.org/abs/2502.07925) |
 | 14 | Evaluating World Models: A Survey | 2025.02 | 世界模型评估 | [arXiv](https://arxiv.org/abs/2502.03214) |
 | 15 | World Models for Robot Manipulation: A Survey | 2025.02 | 机器人操作 | [arXiv](https://arxiv.org/abs/2502.18168) |
+| 16 | The Role of World Models in Shaping Autonomous Driving | 2025.02 | 驾驶世界模型（v2 2026.02 更新） | [arXiv](https://arxiv.org/abs/2502.10498) |
+| 17 | Edge General Intelligence Through World Models and Agentic AI | 2025.08 | 边缘智能 + 世界模型 | [arXiv](https://arxiv.org/abs/2508.09561) |
+| 18 | 3D and 4D World Modeling: A Survey | 2025.09 | 3D/4D 世界建模（50 页） | [arXiv](https://arxiv.org/abs/2509.07996) |
+| 19 | From Masks to Worlds: A Hitchhiker's Guide to World Models | 2025.10 | 世界模型构建路线图 | [arXiv](https://arxiv.org/abs/2510.20668) |
+| 20 | A Comprehensive Survey on World Models for Embodied AI | 2025.10 | 具身 AI 世界模型（三轴分类体系） | [arXiv](https://arxiv.org/abs/2510.16732) |
+| 21 | A Step Toward World Models: A Survey on Robotic Manipulation | 2025.10 | 机器人操作世界模型 | [arXiv](https://arxiv.org/abs/2511.02097) |
+| 22 | Simulating the Visual World with AI: A Roadmap | 2025.11 | 视觉世界模拟路线图（4 代演进） | [arXiv](https://arxiv.org/abs/2511.08585) |
+| 23 | Beyond Generative AI: World Models for Clinical Prediction | 2025.11 | 医疗临床预测世界模型 | [arXiv](https://arxiv.org/abs/2511.16333) |
+| 24 | Video Generation Models in Robotics | 2026.01 | 视频生成模型在机器人中的应用 | [arXiv](https://arxiv.org/abs/2601.07823) |
+| 25 | From Generative Engines to Actionable Simulators | 2026.01 | 物理接地世界模型 | [arXiv](https://arxiv.org/abs/2601.15533) |
+| 26 | From Perception to Action: Spatial AI Agents and World Models | 2026.02 | 空间 AI 智能体（61 页 / 742 引用） | [arXiv](https://arxiv.org/abs/2602.01644) |
 
 ### 三、核心参考文献（标准引用格式）
 

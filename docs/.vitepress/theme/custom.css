@@ -24,6 +24,19 @@
   width: 100%;
 }
 
+/* ===== 可排序表格样式 ===== */
+.vp-doc table.sortable-init th {
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s;
+}
+.vp-doc table.sortable-init th:hover {
+  background-color: var(--vp-c-bg-mute);
+}
+.vp-doc table.sortable-init th .sort-indicator {
+  transition: opacity 0.2s;
+}
+
 /* 表格在宽屏下恢复正常 */
 @media (min-width: 960px) {
   .vp-doc table {
