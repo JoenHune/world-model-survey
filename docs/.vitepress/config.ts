@@ -8,7 +8,9 @@ export default defineConfig({
   lastUpdated: true,
   cleanUrls: true,
 
-  head: [],
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/world-model-survey/favicon.svg' }],
+  ],
 
   markdown: {
     math: true,
