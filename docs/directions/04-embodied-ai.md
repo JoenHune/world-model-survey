@@ -8,6 +8,8 @@ outline: deep
 
 具身 AI 是 **2026 年世界模型研究最活跃的方向**（占全部论文约 30%）。核心目标是为机器人操作、导航、运动控制构建世界模型，实现在想象中学习和规划。2025–2026 年，**VLA（Vision-Language-Action）与世界模型的深度融合**成为最重要的技术趋势，多个重量级工作验证了"在世界模型中训练机器人策略"的可行性。
 
+> 📖 最新综述 [World Models for Embodied AI](https://arxiv.org/abs/2510.16732) 系统梳理了具身场景下的世界模型技术路线。[Robotic Manipulation World Models](https://arxiv.org/abs/2511.02097) 专注于机器人操作的世界模型研究。[Video in Robotic Manipulation](https://arxiv.org/abs/2601.07823) 则从视频预测角度审视了机器人操作中的视频世界模型。
+
 ### 7.2 关键论文深度解析
 
 #### 7.2.1 DreamZero — 世界模型即策略

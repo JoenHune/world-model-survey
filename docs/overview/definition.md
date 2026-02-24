@@ -29,7 +29,13 @@ $$\hat{s}_{t+1} = f_\theta(s_t, a_t)$$
 
 $$p_\theta(s_{t+1} | s_t, a_t)$$
 
-世界模型学习的是状态转移的条件分布。在实践中，根据预测空间和建模方式的不同，这一框架衍生出多种变体：
+世界模型学习的是状态转移的条件分布。
+
+在更真实的**部分可观测**场景（POMDP）中，智能体无法直接观察完整状态 $s_t$，只能获得观测 $o_t$。此时世界模型需要额外维护一个**信念状态** $b_t$：
+
+$$b_t = \text{Encoder}(o_{1:t}, a_{1:t-1}), \quad \hat{b}_{t+1} = f_\theta(b_t, a_t)$$
+
+Dreamer 系列的 RSSM 即遵循此范式，使用确定性路径 $h_t$ 和随机状态 $z_t$ 联合表示信念。在实践中，根据预测空间和建模方式的不同，这一框架衍生出多种变体：
 
 | 范式 | 预测目标 | 代表方法 |
 |------|---------|---------|
@@ -46,6 +52,7 @@ $$p_\theta(s_{t+1} | s_t, a_t)$$
 | **模拟器（Simulator）** | 基于手工编码的物理/规则引擎；世界模型是从数据中学习的 |
 | **数字孪生** | 特定物理系统的精确复制；世界模型是通用的、可泛化的 |
 | **语言模型** | 在文本空间中建模序列分布，可能隐含地学习了某些世界知识（参见 [Othello-GPT](https://arxiv.org/abs/2210.13382)、[LLM Represent Space and Time](https://arxiv.org/abs/2310.02207)） |
+| **NeRF / 3DGS** | 神经辐射场和 3D 高斯溅射是**静态场景的 3D 表示方法**，可作为世界模型的空间表征组件（如 [3D and 4D World Modeling](https://arxiv.org/abs/2509.07996)），但它们本身不建模动力学或时间演化 |
 
 ### 2.4 为什么世界模型如此重要？
 
@@ -53,3 +60,13 @@ $$p_\theta(s_{t+1} | s_t, a_t)$$
 - **安全性**：在内部模拟中测试危险场景，无需真实试错（GAIA-1 在虚拟环境模拟驾驶场景 — [🎬 Wayve 官方博客](https://wayve.ai/thinking/scaling-gaia-1/)）
 - **泛化能力**：一个好的世界模型可以生成无限多样的训练场景（[Cosmos-Drive-Dreams](https://arxiv.org/abs/2506.09042) — [🎬 NVIDIA 演示](https://research.nvidia.com/labs/toronto-ai/cosmos-drive-dreams/)）
 - **通向 AGI 的关键路径**：LeCun 认为世界模型是实现自主机器智能的核心组件；[DreamZero](https://arxiv.org/abs/2602.15922) 证明世界模型可作为零样本策略（[🎬 项目主页](https://dreamzero-world-action-model.github.io/)）
+
+### 2.5 当前局限性
+
+世界模型虽然前景广阔，但仍面临若干根本性挑战（[From Generative Engines to Actionable Simulators](https://arxiv.org/abs/2601.15533)）：
+
+1. **长时预测误差累积**：多步展开后预测质量快速衰减，这是自回归模型的固有缺陷（[A Comprehensive Survey on World Models for Embodied AI](https://arxiv.org/abs/2510.16732)）
+2. **物理理解的脆弱性**：视觉逼真度 ≠ 物理理解——模型可生成逼真视频但违反基本物理约束（如物体穿模、重力异常）
+3. **分布外泛化失败**：在未见过的场景或动力学条件下，世界模型的预测可靠性急剧下降
+4. **评估困难**：缺乏统一的评估框架来衡量世界模型是否"真正理解"了世界规律（参见 [Simulating the Visual World: A Roadmap](https://arxiv.org/abs/2511.08585)）
+5. **计算成本高昂**：大规模视频世界模型训练需要数千 GPU 天，限制了学术界的参与

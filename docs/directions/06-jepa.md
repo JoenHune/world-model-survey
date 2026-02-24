@@ -56,11 +56,22 @@ LeCun 2022 年的立场论文 [*A Path Towards Autonomous Machine Intelligence*]
 | [VLA-JEPA](https://arxiv.org/abs/2602.10098) | 2026.02 | 潜在世界模型增强 VLA 模型 | [arXiv](https://arxiv.org/abs/2602.10098) |
 | Value-guided Action Planning with JEPA | ICLR 2026 Workshop | 基于 JEPA 的价值引导动作规划 | — |
 
-### 9.5 方向小结
+### 9.5 多模态 JEPA 扩展
+
+JEPA 范式已从视觉领域向多模态扩展：
+
+- **Audio-JEPA**（Meta, 2024）将联合嵌入预测架构应用于音频表征学习，在音频事件分类和语音识别上取得与 MAE 可比的性能，但训练效率提高 2 倍
+- **MC-JEPA**（Multi-Concept JEPA, 2025）在表征空间中引入多概念分解，实现场景级的组合式世界理解
+- **AD-L-JEPA**（§9.4）将 JEPA 扩展到自动驾驶 LiDAR 点云，证明表征空间预测在 3D 感知中同样有效
+- **VLA-JEPA**（§9.4）则将 JEPA 与视觉语言动作模型（VLA）结合，显示世界模型增强的 VLA 在多任务具身控制中的优势
+
+这一扩展趋势表明 JEPA 不仅是视觉模型的替代方案，而是有望成为**跨模态统一世界建模的基础范式**。
+
+### 9.6 方向小结
 
 | 特征 | 描述 |
 |------|------|
-| **优势** | 训练效率高、抗噪声、编码结构化信息、天然适合规划 |
-| **局限** | 不可直接可视化、生态成熟度低于生成式方法 |
-| **趋势** | 在具身 AI 中持续发力（VLA-JEPA、V-JEPA 2-AC）；与生成式方法走向融合 |
-| **代表方法** | I-JEPA、V-JEPA 系列、IWM、Causal-JEPA |
+| **优势** | 训练效率高（比生成式节省 1.5-6×）、抗噪声、编码结构化信息、天然适合规划 |
+| **局限** | 不可直接可视化（需解码器辅助）、生态成熟度低于生成式方法、多模态融合仍在早期 |
+| **趋势** | 在具身 AI 中持续发力（VLA-JEPA、V-JEPA 2-AC）；向多模态扩展（Audio、LiDAR）；与生成式方法走向融合 |
+| **代表方法** | I-JEPA、V-JEPA / V-JEPA 2、IWM、Causal-JEPA、VLA-JEPA |

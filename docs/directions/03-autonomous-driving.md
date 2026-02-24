@@ -8,6 +8,8 @@ outline: deep
 
 自动驾驶是世界模型最直接的应用场景之一，也是论文最密集的领域。核心需求是：**在虚拟环境中安全地测试和训练策略，然后零样本迁移到真实世界**。这个方向的世界模型需要处理多模态传感器数据（相机、LiDAR）、复杂交通规则和安全约束。
 
+近期多篇高质量综述系统梳理了这一方向：[The Role of World Models in Shaping AD](https://arxiv.org/abs/2502.10498) 按预测模态（视频/点云/占据/潜在特征/交通图）构建了完整分类体系；[A Survey on World Models for AD](https://arxiv.org/abs/2403.02622) 提供了早期奠基性综述；[Video Generation Models in Robotics](https://arxiv.org/abs/2601.07823) 则从视频基座模型角度探讨了驾驶场景生成的可信度挑战。
+
 ### 6.2 关键论文深度解析
 
 #### 6.2.1 GAIA 系列技术演进（2023–2025）
@@ -77,6 +79,7 @@ outline: deep
 | 特征 | 描述 |
 |------|------|
 | **优势** | 直接对接工业应用、安全关键场景测试、数据生成 |
-| **局限** | 需要极高物理精度、多模态融合挑战、长尾场景覆盖 |
-| **趋势** | 从相机到 LiDAR 到多模态融合；从任务特定到基础模型；缩放定律已验证 |
+| **局限** | 需要极高物理精度、多模态融合挑战、长尾场景覆盖；**安全保障**（形式验证、可靠性认证）仍是核心瓶颈 |
+| **趋势** | 从相机到 LiDAR 到多模态融合；从任务特定到基础模型；缩放定律已验证；**车路协同（V2X）** 和**交通流生成**是新兴子方向 |
 | **代表方法** | GAIA 系列、UniSim、Vista、GenAD、Copilot4D |
+| **关键综述** | [Role of WM in AD](https://arxiv.org/abs/2502.10498)、[Survey on WM for AD](https://arxiv.org/abs/2403.02622)、[Video Gen in Robotics](https://arxiv.org/abs/2601.07823) |
