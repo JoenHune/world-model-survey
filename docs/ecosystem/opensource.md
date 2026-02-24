@@ -8,15 +8,15 @@ outline: deep
 
 | 项目 | 机构 | Stars | 许可证 | 核心特征 | 链接 |
 |------|------|-------|--------|---------|------|
-| **Cosmos** | NVIDIA | 5k+ | Apache 2.0 | 物理世界基础模型，预训练+微调全链路 | [GitHub](https://github.com/NVIDIA/Cosmos) |
-| **CogVideoX** | 智谱 AI / 清华 | 10k+ | Apache 2.0 | 全链路开源视频生成（训练+推理+数据） | [GitHub](https://github.com/THUDM/CogVideo) |
-| **Wan2.1** | 阿里巴巴 | 15k+ | Apache 2.0 | 1.3B–14B 多规模视频生成 | [GitHub](https://github.com/Wan-Video/Wan2.1) |
-| **HunyuanVideo** | 腾讯 | 8k+ | Tencent | 高质量长视频生成 | [GitHub](https://github.com/Tencent/HunyuanVideo) |
-| **SkyReels-V2** | 昆仑万维 | 3k+ | Apache 2.0 | 无限时长视频+物理世界模型 | [GitHub](https://github.com/SkyworkAI/SkyReels-V2) |
-| **DreamerV3** | Danijar Hafner | 2k+ | MIT | 通用强化学习世界模型 | [GitHub](https://github.com/danijar/dreamerv3) |
-| **DIAMOND** | Microsoft | 1k+ | MIT | 扩散世界模型玩 Atari | [GitHub](https://github.com/eloialonso/diamond) |
-| **AniSora** | 清华 | 1k+ | Apache 2.0 | 动漫可控视频生成 | [GitHub](https://github.com/bilibili/AniSora) |
-| **LWM** | UC Berkeley | 800+ | Apache 2.0 | 大世界模型（百万 token 上下文） | [GitHub](https://github.com/LargeWorldModel/LWM) |
+| **Cosmos** | NVIDIA | ![](https://img.shields.io/github/stars/NVIDIA/Cosmos?style=social) | Apache 2.0 | 物理世界基础模型，预训练+微调全链路 | [GitHub](https://github.com/NVIDIA/Cosmos) |
+| **CogVideoX** | 智谱 AI / 清华 | ![](https://img.shields.io/github/stars/THUDM/CogVideo?style=social) | Apache 2.0 | 全链路开源视频生成（训练+推理+数据） | [GitHub](https://github.com/THUDM/CogVideo) |
+| **Wan2.1** | 阿里巴巴 | ![](https://img.shields.io/github/stars/Wan-Video/Wan2.1?style=social) | Apache 2.0 | 1.3B–14B 多规模视频生成 | [GitHub](https://github.com/Wan-Video/Wan2.1) |
+| **HunyuanVideo** | 腾讯 | ![](https://img.shields.io/github/stars/Tencent/HunyuanVideo?style=social) | Tencent | 高质量长视频生成 | [GitHub](https://github.com/Tencent/HunyuanVideo) |
+| **SkyReels-V2** | 昆仑万维 | ![](https://img.shields.io/github/stars/SkyworkAI/SkyReels-V2?style=social) | Apache 2.0 | 无限时长视频+物理世界模型 | [GitHub](https://github.com/SkyworkAI/SkyReels-V2) |
+| **DreamerV3** | Danijar Hafner | ![](https://img.shields.io/github/stars/danijar/dreamerv3?style=social) | MIT | 通用强化学习世界模型 | [GitHub](https://github.com/danijar/dreamerv3) |
+| **DIAMOND** | Microsoft | ![](https://img.shields.io/github/stars/eloialonso/diamond?style=social) | MIT | 扩散世界模型玩 Atari | [GitHub](https://github.com/eloialonso/diamond) |
+| **AniSora** | 清华 | ![](https://img.shields.io/github/stars/bilibili/AniSora?style=social) | Apache 2.0 | 动漫可控视频生成 | [GitHub](https://github.com/bilibili/AniSora) |
+| **LWM** | UC Berkeley | ![](https://img.shields.io/github/stars/LargeWorldModel/LWM?style=social) | Apache 2.0 | 大世界模型（百万 token 上下文） | [GitHub](https://github.com/LargeWorldModel/LWM) |
 
 ### 14.2 上游基础设施
 

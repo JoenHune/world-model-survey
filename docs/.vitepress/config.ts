@@ -53,7 +53,7 @@ export default defineConfig({
       { text: '附录', link: '/appendix' },
       {
         text: '📄 完整版下载',
-        link: '/世界模型完整研究报告.md',
+        link: 'https://joenhune.github.io/world-model-survey/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E5%AE%8C%E6%95%B4%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A.md',
         target: '_blank',
       },
     ],

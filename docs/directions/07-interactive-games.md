@@ -39,7 +39,7 @@ outline: deep
 
 | 论文 | 时间 | 核心贡献 | 链接 |
 |------|------|---------|------|
-| [Oasis](https://oasis-model.github.io/) | Decart, 2024.10 | 纯 Transformer 实时开放世界模拟，20fps，500M 开源 | [GitHub](https://github.com/etched-ai/open-oasis)（2.1k ⭐） |
+| [Oasis](https://oasis-model.github.io/) | Decart, 2024.10 | 纯 Transformer 实时开放世界模拟，20fps，500M 开源 | [GitHub](https://github.com/etched-ai/open-oasis) [![Stars](https://img.shields.io/github/stars/etched-ai/open-oasis?style=social)](https://github.com/etched-ai/open-oasis) |
 | [GameGen-X](https://arxiv.org/abs/2411.00769) | 2024.11 | 首个扩散 Transformer 游戏视频生成模型，百万级数据集 | [arXiv](https://arxiv.org/abs/2411.00769) |
 | [GameFactory](https://arxiv.org/abs/2501.08325) | ICCV 2025 Highlight | 跨场景泛化的动作可控游戏视频生成 | [arXiv](https://arxiv.org/abs/2501.08325) |
 | [Pandora](https://arxiv.org/abs/2406.09455) | 2024.06 | 自然语言控制的通用世界模型，混合自回归-扩散 | [arXiv](https://arxiv.org/abs/2406.09455) |

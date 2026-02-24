@@ -24,7 +24,7 @@ outline: deep
 
 4. **具身 AI 世界模型爆发（2025–2026）**：[DreamZero](https://arxiv.org/abs/2602.15922)（14B 参数世界动作模型，7Hz 实时闭环控制）、[World-Gymnast](https://arxiv.org/abs/2602.02454)（在世界模型中 RL 微调 VLA，比 SFT 提升 18×）、[FLARE](https://arxiv.org/abs/2505.15659)（隐式世界模型，近零推理开销）等工作将"在世界模型中训练机器人策略"从理论推向实践，VLA + World Model 融合成为主流范式。
 
-5. **视频基座模型全球竞争（2024–2025）**：智谱（[CogVideoX](https://arxiv.org/abs/2408.06072)，ICLR 2025）、腾讯（[HunyuanVideo](https://arxiv.org/abs/2412.03603)，130 亿参数）、阿里（[Wan2.1](https://arxiv.org/abs/2503.20314)，15.4k ⭐）、昆仑万维（[SkyReels-V2](https://arxiv.org/abs/2504.13074)，VBench SOTA 83.9%）、字节（Seedance）、快手（可灵）、阶跃星辰（[Step-Video](https://arxiv.org/abs/2502.10248)，300 亿参数）等与 OpenAI、NVIDIA、Google DeepMind 形成全球多极竞争格局，且正从视频生成向世界模型方向系统性转型。
+5. **视频基座模型全球竞争（2024–2025）**：智谱（[CogVideoX](https://arxiv.org/abs/2408.06072)，ICLR 2025）、腾讯（[HunyuanVideo](https://arxiv.org/abs/2412.03603)，130 亿参数）、阿里（[Wan2.1](https://arxiv.org/abs/2503.20314) [![Stars](https://img.shields.io/github/stars/Wan-Video/Wan2.1?style=social)](https://github.com/Wan-Video/Wan2.1)）、昆仑万维（[SkyReels-V2](https://arxiv.org/abs/2504.13074)，VBench SOTA 83.9%）、字节（Seedance）、快手（可灵）、阶跃星辰（[Step-Video](https://arxiv.org/abs/2502.10248)，300 亿参数）等与 OpenAI、NVIDIA、Google DeepMind 形成全球多极竞争格局，且正从视频生成向世界模型方向系统性转型。
 
 6. **JEPA 理论路线的持续推进（2022–2025）**：Yann LeCun 的 [JEPA](https://openreview.net/forum?id=BZ5a1r-kVsf)（联合嵌入预测架构）提供了一条截然不同的理论路径——在抽象表征空间中预测而非在像素空间中生成；[V-JEPA 2](https://arxiv.org/abs/2506.09985) 实现理解、预测与规划的统一，V-JEPA 2-AC 将其扩展到具身控制。
 

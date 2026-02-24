@@ -45,16 +45,16 @@ outline: deep
 |------|----------|---------|------|
 | [WorldDreamer](https://arxiv.org/abs/2401.09985) | 清华/GigaAI, 2024.01 | 首个通用世界模型：遮蔽 token 预测统一 T2V/I2V/编辑 | [arXiv](https://arxiv.org/abs/2401.09985) |
 | [LVM](https://arxiv.org/abs/2312.00785) | UC Berkeley, 2023.12 | 大视觉模型：4200 亿视觉 token 上 next-token 预测 | [arXiv](https://arxiv.org/abs/2312.00785) |
-| [**CogVideoX**](https://arxiv.org/abs/2408.06072) | 智谱 AI/清华, ICLR 2025 | 3D VAE + Expert DiT，10 秒连续视频，12.4k ⭐ | [GitHub](https://github.com/THUDM/CogVideo) |
+| [**CogVideoX**](https://arxiv.org/abs/2408.06072) | 智谱 AI/清华, ICLR 2025 | 3D VAE + Expert DiT，10 秒连续视频 | [GitHub](https://github.com/THUDM/CogVideo) [![Stars](https://img.shields.io/github/stars/THUDM/CogVideo?style=social)](https://github.com/THUDM/CogVideo) |
 | [**HunyuanVideo**](https://arxiv.org/abs/2412.03603) | 腾讯, 2024.12 | 130 亿参数，双流→单流 DiT + MLLM 编码器 | [GitHub](https://github.com/Tencent/HunyuanVideo) |
-| [**Wan2.1**](https://arxiv.org/abs/2503.20314) | 阿里巴巴, 2025.03 | 14B 参数，VBench 83.7%，Wan-VAE 支持无限长度 1080P | [GitHub](https://github.com/Wan-Video/Wan2.1)（15.4k ⭐） |
+| [**Wan2.1**](https://arxiv.org/abs/2503.20314) | 阿里巴巴, 2025.03 | 14B 参数，VBench 83.7%，Wan-VAE 支持无限长度 1080P | [GitHub](https://github.com/Wan-Video/Wan2.1) [![Stars](https://img.shields.io/github/stars/Wan-Video/Wan2.1?style=social)](https://github.com/Wan-Video/Wan2.1) |
 | [**Step-Video-T2V**](https://arxiv.org/abs/2502.10248) | 阶跃星辰, 2025.02 | 300 亿参数，首创 Video-DPO 对齐技术 | [GitHub](https://github.com/stepfun-ai/Step-Video-T2V) |
 | [**SkyReels-V2**](https://arxiv.org/abs/2504.13074) | 昆仑万维, 2025.04 | **首个开源 Diffusion Forcing 模型**，VBench SOTA 83.9% | [GitHub](https://github.com/SkyworkAI/SkyReels-V2) |
 | **Seedance 1.0→2.0** | 字节跳动 | 闭源；2.0 统一多模态架构，导演级控制 | 产品：即梦/豆包 |
 | **可灵 Kling** | 快手 | 闭源；MVL 方法，中国市场占有率领先 | [klingai.com](https://klingai.com) |
 | [AniSora](https://arxiv.org/abs/2412.10255) | 哔哩哔哩, 2024.12 | 首个动画视频生成系统，扩展到艺术/幻想世界模拟 | [GitHub](https://github.com/bilibili/Index-anisora) |
-| [Open-Sora](https://github.com/hpcaitech/Open-Sora) | 2024–2025 | 最大规模 Sora 开源复现，110 亿参数 v2.0 仅 $200K 训练成本 | [GitHub](https://github.com/hpcaitech/Open-Sora)（28.6k ⭐） |
-| [Open-Sora-Plan](https://github.com/PKU-YuanGroup/Open-Sora-Plan) | 北大, 2024 | 开源 Sora 复现，支持长视频生成 | [GitHub](https://github.com/PKU-YuanGroup/Open-Sora-Plan)（12.1k ⭐） |
+| [Open-Sora](https://github.com/hpcaitech/Open-Sora) | 2024–2025 | 最大规模 Sora 开源复现，110 亿参数 v2.0 仅 $200K 训练成本 | [GitHub](https://github.com/hpcaitech/Open-Sora) [![Stars](https://img.shields.io/github/stars/hpcaitech/Open-Sora?style=social)](https://github.com/hpcaitech/Open-Sora) |
+| [Open-Sora-Plan](https://github.com/PKU-YuanGroup/Open-Sora-Plan) | 北大, 2024 | 开源 Sora 复现，支持长视频生成 | [GitHub](https://github.com/PKU-YuanGroup/Open-Sora-Plan) [![Stars](https://img.shields.io/github/stars/PKU-YuanGroup/Open-Sora-Plan?style=social)](https://github.com/PKU-YuanGroup/Open-Sora-Plan) |
 | [VideoReward / Flow-DPO](https://arxiv.org/abs/2501.13918) | 2025.01 | 视频生成的 RLHF 对齐：多维度奖励模型 + 流模型 DPO | [arXiv](https://arxiv.org/abs/2501.13918) |
 | [Causal-Forcing](https://arxiv.org/abs/2602.02214) | 清华 thu-ml, 2026.02 | 自回归扩散蒸馏用于高质量实时交互视频生成 | [GitHub](https://github.com/thu-ml/Causal-Forcing) |
 | [Matrix-Game 2.0](https://arxiv.org/abs/2508.13009) | SkyworkAI, 2025 | 开源实时流式交互式世界模型 | [GitHub](https://github.com/SkyworkAI/Matrix-Game) |

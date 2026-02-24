@@ -52,7 +52,7 @@ outline: deep
 |------|------|
 | **论文** | [*TD-MPC2: Scalable, Robust World Models for Continuous Control*](https://arxiv.org/abs/2310.16828) |
 | **发表** | ICLR 2024 |
-| **代码** | [github.com/nicklashansen/tdmpc2](https://github.com/nicklashansen/tdmpc2)（758 ⭐） |
+| **代码** | [github.com/nicklashansen/tdmpc2](https://github.com/nicklashansen/tdmpc2) [![Stars](https://img.shields.io/github/stars/nicklashansen/tdmpc2?style=social)](https://github.com/nicklashansen/tdmpc2) |
 
 **核心方法**：在学习到的**隐式（无解码器）世界模型**的潜在空间中进行局部轨迹优化（模型预测控制）。与 Dreamer 系列不同，TD-MPC2 不重建观测——完全在潜在空间中规划。
 
@@ -67,7 +67,7 @@ outline: deep
 |------|------|
 | **论文** | [*Diffusion for World Modeling: Visual Details Matter in Atari*](https://arxiv.org/abs/2405.12399) |
 | **发表** | NeurIPS 2024 Spotlight |
-| **代码** | [github.com/eloialonso/diamond](https://github.com/eloialonso/diamond)（2k ⭐） |
+| **代码** | [github.com/eloialonso/diamond](https://github.com/eloialonso/diamond) [![Stars](https://img.shields.io/github/stars/eloialonso/diamond?style=social)](https://github.com/eloialonso/diamond) |
 
 **核心洞察**：离散 token 化会**丢弃对 RL 性能至关重要的视觉细节**。DIAMOND 使用连续扩散替代离散 token 进行环境模拟。
 

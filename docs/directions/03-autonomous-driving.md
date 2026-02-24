@@ -41,7 +41,7 @@ outline: deep
 |------|------|
 | **论文** | [*Vista: A Generalizable Driving World Model*](https://arxiv.org/abs/2405.17398) |
 | **发表** | NeurIPS 2024 |
-| **代码** | [github.com/OpenDriveLab/Vista](https://github.com/OpenDriveLab/Vista)（855 ⭐） |
+| **代码** | [github.com/OpenDriveLab/Vista](https://github.com/OpenDriveLab/Vista) [![Stars](https://img.shields.io/github/stars/OpenDriveLab/Vista?style=social)](https://github.com/OpenDriveLab/Vista) |
 
 **成果**：驾驶世界模型 SOTA，FID 改善 55%、FVD 改善 27%；首次实现自监督驾驶奖励评估。
 

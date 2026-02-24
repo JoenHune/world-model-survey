@@ -13,7 +13,7 @@ hero:
       link: /overview/executive-summary
     - theme: alt
       text: 📄 下载完整版
-      link: /%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E5%AE%8C%E6%95%B4%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A.md
+      link: https://joenhune.github.io/world-model-survey/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E5%AE%8C%E6%95%B4%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A.md
   image:
     src: /favicon.svg
     alt: World Model

@@ -56,7 +56,7 @@ outline: deep
 | 2025.01 | [**NVIDIA Cosmos**](https://arxiv.org/abs/2501.03575) ⭐ | NVIDIA | 首个开源世界基础模型平台：13 个代码仓库，完整物理 AI 管线（Apache-2.0） |
 | 2025.01 | [**VideoWorld**](https://arxiv.org/abs/2501.09781) ⭐ | Ren 等 | 纯视频学习知识：3 亿参数模型仅从视频达到围棋五段水平，无需搜索或奖励 |
 | 2025.02 | [**Step-Video-T2V**](https://arxiv.org/abs/2502.10248) | 阶跃星辰 | 300 亿参数，首创 Video-DPO 对齐技术 |
-| 2025.03 | [**Wan2.1**](https://arxiv.org/abs/2503.20314) | 阿里巴巴 | 14B 参数，VBench 83.7%，Wan-VAE 支持无限长度 1080P（15.4k ⭐） |
+| 2025.03 | [**Wan2.1**](https://arxiv.org/abs/2503.20314) | 阿里巴巴 | 14B 参数，VBench 83.7%，Wan-VAE 支持无限长度 1080P [![Stars](https://img.shields.io/github/stars/Wan-Video/Wan2.1?style=social)](https://github.com/Wan-Video/Wan2.1) |
 | 2025.03 | [**GAIA-2**](https://arxiv.org/abs/2503.20523) | Wayve | 可控多视角生成世界模型 |
 | 2025.04 | [**SkyReels-V2**](https://arxiv.org/abs/2504.13074) | 昆仑万维 | **首个开源 Diffusion Forcing 模型**，VBench SOTA 83.9%，无限长度视频 |
 | 2025.05 | [**FLARE**](https://arxiv.org/abs/2505.15659) | NVIDIA | 隐式世界模型用于机器人学习，集成 Isaac GR00T，近零推理开销提升 26% |

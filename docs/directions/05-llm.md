@@ -45,7 +45,7 @@ outline: deep
 | [LAW 框架](https://arxiv.org/abs/2312.05230) | NeurIPS 2023 Tutorial | 语言模型(L)、智能体模型(A)、世界模型(W) 三位一体 | [arXiv](https://arxiv.org/abs/2312.05230) |
 | [从词模型到世界模型](https://arxiv.org/abs/2306.12672) | 2023.06 | LLM 翻译为概率程序，贝叶斯推理实现世界推理 | [arXiv](https://arxiv.org/abs/2306.12672) |
 | [语言模型遇见世界模型](https://arxiv.org/abs/2305.10626) | 2023.05 | 具身经验微调 LM，物理推理提升 64.28% | [arXiv](https://arxiv.org/abs/2305.10626) |
-| [LWM](https://arxiv.org/abs/2402.08268) | UC Berkeley, 2024 | 基于 RingAttention 的百万 token 视频+语言世界模型 | [GitHub](https://github.com/LargeWorldModel/LWM)（7.4k ⭐） |
+| [LWM](https://arxiv.org/abs/2402.08268) | UC Berkeley, 2024 | 基于 RingAttention 的百万 token 视频+语言世界模型 | [GitHub](https://github.com/LargeWorldModel/LWM) [![Stars](https://img.shields.io/github/stars/LargeWorldModel/LWM?style=social)](https://github.com/LargeWorldModel/LWM) |
 | [LLM-Sim](https://arxiv.org/abs/2406.06485) | ACL 2024 | 语言模型作为文本世界模拟器 | [arXiv](https://arxiv.org/abs/2406.06485) |
 | [WebDreamer](https://arxiv.org/abs/2411.06559) | 2024.11 | LLM 是否是互联网的世界模型 | [arXiv](https://arxiv.org/abs/2411.06559) |
 | [WALL-E 2.0](https://arxiv.org/abs/2504.15785) | 2025.04 | 神经符号学习改善基于世界模型的 LLM Agent | [arXiv](https://arxiv.org/abs/2504.15785) |
