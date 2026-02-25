@@ -29,12 +29,15 @@ outline: deep
   ↓
 [2022] Diffusion + U-Net (早期扩散世界模型)
   ↓
-[2024] DiT + 3D VAE + Flow Matching (当前主流)
+[2024] DiT + 3D VAE + Flow Matching (当前开源主流)
   ↓
 [2025] 多模态融合：DiT + Action Tokens + Physics Priors
+  ↓   后训练成为核心竞争：Video-DPO / Diffusion Forcing / RL
   ↓
 [2026?] 统一世界模型：生成 + 理解 + 规划一体化
 ```
+
+> ⚠️ 注意：上述架构演进主要基于**开源可观察**的工作。闭源模型（Sora 2、Runway Gen-4、Kling 等）的架构细节未公开，无法确认是否遵循同一演进路径。
 
 ### 15.3 核心维度对比
 

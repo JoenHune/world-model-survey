@@ -36,7 +36,7 @@ outline: deep
 
 ### 13.3 视频基座模型架构趋同分析
 
-2024–2025 年间，各机构的视频生成世界模型在架构选择上出现高度趋同，形成 **DiT + 3D VAE + Flow Matching** 的主流技术栈：
+2024–2025 年间，各机构的**开源**视频生成世界模型在架构选择上出现高度趋同，形成 **DiT + 3D VAE + Flow Matching** 的主流技术栈：
 
 | 技术栈组件 | 选择 | 采用者 | 替代方案 |
 |-----------|------|--------|---------|
@@ -45,6 +45,8 @@ outline: deep
 | **采样策略** | Flow Matching (Rectified Flow) | Wan2.1、SkyReels-V2、HunyuanVideo | DDPM/DDIM (步数多，效率低) |
 | **文本编码器** | 双编码器 (CLIP + T5/LLM) | CogVideoX、Step-Video、Wan2.1 | 单 CLIP (语义不足) |
 | **长度扩展** | 分块推理 / 滑窗 / 无限AR | SkyReels-V2、Kling、Wan2.1 | 全序列注意力 (显存爆炸) |
+
+> ⚠️ **重要边界**：架构趋同仅限于**开源可观察的范围**。Sora 2、Runway Gen-4、Kling O1 等闭源模型的架构细节均未公开，将其归入同一趋同叙事属于推测。闭源阵营的真实护城河在于数据规模、后训练优化和商业功能（详见 §5.4）。
 
 **趋同驱动力**：
 
@@ -62,7 +64,8 @@ outline: deep
 3. **欧洲 — 垂直深耕者**：Wayve（自动驾驶）、1X（人形机器人）、NNAISENSE（工业 RL）在细分场景深度积累
 
 **竞争趋势**：
-- 视频生成方向趋向同质化，差异化转向应用场景和数据飞轮
-- 具身 AI 方向成为新高地，Meta 和 Google 投入最大
+- 视频生成方向架构趋同后竞争转向数据质量、后训练策略和商业功能（T2V 开源已领先，I2V 闭源仍有优势）
+- 具身 AI 方向成为新高地，NVIDIA（FLARE + GR00T 全栈）、Google DeepMind（DreamZero）投入最大
+- 3D/4D 方向 World Labs（Fei-Fei Li 创立）和腾讯 HunyuanWorld 系列形成最活跃生态
 - 自动驾驶方向由 Wayve、NVIDIA、上海 AI Lab 三足鼎立
 - 开源力度加大：中国大厂和 NVIDIA 主导开源浪潮
