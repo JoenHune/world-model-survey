@@ -6,7 +6,7 @@ titleTemplate: 深度调研 · 1943–2026
 hero:
   name: 世界模型
   text: 完整研究报告
-  tagline: 覆盖 1943–2026 · ~210 篇论文 · 9 大研究方向 · 12 家全球机构
+  tagline: 覆盖 1943–2026 · ~200 篇论文 · 9 大研究方向 · 15+ 家全球机构
   actions:
     - theme: brand
       text: 开始阅读 →

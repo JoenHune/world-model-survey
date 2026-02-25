@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: '世界模型研究报告',
-  description: '世界模型（World Model）完整研究报告 — 覆盖 1943–2026 年，~210 篇论文，9 大研究方向',
+  description: '世界模型（World Model）完整研究报告 — 覆盖 1943–2026 年，~200 篇论文，9 大研究方向',
   lang: 'zh-CN',
   base: '/world-model-survey/',
   lastUpdated: true,
